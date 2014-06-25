@@ -1,1 +1,0 @@
-requirejs.config({baseUrl:"script",paths:{}}),requirejs(["main"]);
