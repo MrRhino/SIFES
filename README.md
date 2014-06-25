@@ -1,16 +1,17 @@
 This web project has the following setup:
 
 	* www/ - the web assets for the project
-    * index.html - the entry point into the app.
-    * app.js - the top-level config script used by index.html
-    * app/ - the directory to store project-specific scripts.
-    * lib/ - the directory to hold third party scripts.
+	* www/server.js - minimal node.js http server. Start with the command: "node server" ( from the www folder )
+    * www/index.html - the entry point into the app.
+    * www/app.js - the top-level config script used by index.html
+    * www/app/ - the directory to store project-specific scripts.
+    * www/css/ - style sheets.
+    * www/script/lib/ - the directory to hold third party scripts.
 	* tools/ - the build tools to optimize the project.
 
 To optimize, run:
 
-    //node tools/r.js -o tools/build.js
-	node tools/r.js -o app.build.js
+	node tools/r.js -o app.build.js ( from the parent of the tools folder )
 
 That build command creates an optimized version of the project in a
 **appdirectory-build** directory. The app.js file will be optimized to include
