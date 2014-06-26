@@ -1,3 +1,6 @@
+Simple Front End Stack
+=========
+
 This web project has the following setup:
 
 	* www/ - the web assets for the project
@@ -9,7 +12,19 @@ This web project has the following setup:
     * www/script/lib/ - the directory to hold third party scripts.
 	* tools/ - the build tools to optimize the project.
 
-To optimize, run:
+
+Installation
+---------
+1. git clone git@github.com:MrRhino/SIFES.git<br>
+2. npm install<br>
+
+Run
+---------
+Go to th www folder and run the command "node server"
+
+
+To optimize
+---------
 
 	node tools/r.js -o app.build.js ( from the parent of the tools folder )
 
