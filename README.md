@@ -20,7 +20,7 @@ Installation
 
 Run
 ---------
-Go to th www folder and run the command "node server"
+Go to the www folder and run the command "node server"
 
 
 To optimize
